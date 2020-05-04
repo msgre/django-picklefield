@@ -2,14 +2,12 @@ from __future__ import unicode_literals
 
 from setuptools import find_packages, setup
 
-import picklefield
-
 with open('README.rst') as file_:
     long_description = file_.read()
 
 setup(
     name='django-picklefield',
-    version=picklefield.__version__,
+    version='2.1.1',
     description='Pickled object field for Django',
     long_description=long_description,
     author='Simon Charette',
